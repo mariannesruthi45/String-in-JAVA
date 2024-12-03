@@ -1,0 +1,11 @@
+public class StringToArray {
+    public static void main(String[] args) {
+        String str = "Convert this string to an array";
+        String[] stringArray = str.split(" ");
+        
+        System.out.println("String Array:");
+        for (String word : stringArray) {
+            System.out.println(word);
+        }
+    }
+}
